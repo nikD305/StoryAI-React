@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+body{
+  background-color: #20262c;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
+}
+.back{
+  /* background: linear-gradient(to bottom right, #FFC6FF, #00BFFF); */
+  background-image: url("D:\webdev\ReactProjects\StoryAI-React\src\myComponentes\images\face.jpg");
+  background-size: cover;
+  background-position: 90%;
+  /* margin-top: 25px; */
+  color: white;
+  margin-bottom: 50px;
+}
+button {
+  background: linear-gradient(to bottom, #00ffff, #0066ff 40%, #00ffff);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 0 20px 0 rgba(0, 255, 255, 0.7), 0 0 30px 0 rgba(0, 255, 255, 0.7), 0 0 40px 0 rgba(0, 255, 255, 0.7), 0 0 70px 0 rgba(0, 255, 255, 0.7);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #0066ff, #0000cc 40%, #0066ff);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 0 40px 0 rgba(0, 255, 255, 0.7), 0 0 60px 0 rgba(0, 255, 255, 0.7), 0 0 80px 0 rgba(0, 255, 255, 0.7), 0 0 120px 0 rgba(0, 255, 255, 0.7);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: 10px 0; */
+}
+
+img {
+  width: 50vw;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  height: 100vh;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  flex: 1;
+}
+h1{
+  background: linear-gradient(to right, #00bfff, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+
+h1 span{
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.bottom_line{
+  position: absolute;
+    bottom: 130px;
+    right: 30px;
+    height: 100px;
+    width: 228px;
+    box-sizing: border-box;
+    color: white;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+
+.bottom_line p{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-weight: 200;
+}
